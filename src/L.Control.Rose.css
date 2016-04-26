@@ -6,41 +6,41 @@
   }
 
   .right {
-  	right: 0;
+  	right: 1%;
   	top: 50%;
   }
 
   .left {
-  	left: 0;
+  	left: 1%;
   	bottom: 50%
   }
 
   .top {
-  	top: 0;
+  	top: 1%;
   	right: 50%;
   }
 
   .bottom {
-    bottom: 0;
+    bottom: 1%;
     left: 50%;
   }
 
   .bottomright {
- 	bottom: 0;
+ 	bottom: 1%;
  	right: 0%;
   }
 
   .bottomleft {
- 	bottom: 0;
+ 	bottom: 1%;
  	left: 0%;
  }
 
   .topright {
- 	top: 0;
+ 	top: 1%;
  	right: 0%;
  }
 
    .topleft {
- 	top: 0;
+ 	top: 1%;
  	left: 0%;
  }
