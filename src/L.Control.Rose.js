@@ -1,7 +1,7 @@
 L.Control.Rose = L.Control.extend({
 
     options: {
-        arrow: 'default',
+        icon: 'default',
         position: 'bottomleft',
     },
 
@@ -21,6 +21,12 @@ L.Control.Rose = L.Control.extend({
         //Style and attach content container
         L.DomUtil.addClass(content, 'leaflet-control');
         container.appendChild(content)
+
+        //insert image
+        var arrow = this.options.icon;
+        var path = 'images/'+arrow+'.svg';
+        var i = L.DomUtil.create('img', 'north-arrow', content);
+        i.setAttribute('src', path);
     },
 
     addTo: function (map) {
