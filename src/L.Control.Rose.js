@@ -1,8 +1,8 @@
 L.Control.Rose = L.Control.extend({
 
-    options {
-        arrow: 'default'
-        position: 'bottomleft'
+    options: {
+        arrow: 'default',
+        position: 'bottomleft',
     },
 
     initialize: function (placeholder, options) {
@@ -16,10 +16,10 @@ L.Control.Rose = L.Control.extend({
 
         //Create rose container
         var container = this._container =
-            L.DomUtil.create('div', 'leaflet-rose' + this.options.position);
+            L.DomUtil.create('div', 'leaflet-rose ' + this.options.position);
 
         //Style and attach content container
-        var L.DomUtil.addClass(content, 'leaflet-control');
+        L.DomUtil.addClass(content, 'leaflet-control');
         container.appendChild(content)
     },
 
@@ -52,6 +52,6 @@ L.Control.Rose = L.Control.extend({
 
 });
 
-L.control.rose = function(placeholder, options) {
+L.control.rose = function (placeholder, options) {
     return new L.Control.Rose(placeholder, options);
 };
