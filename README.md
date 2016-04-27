@@ -47,12 +47,14 @@ Positions are inherited from L.Control
 [circle]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/circle.png "circle"
 [inner]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/inner.png "inner"
 [hip]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/hip.png "hip"
+[contrast]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/contrast.png "contrast"
+[nautical]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/nautical.png "nautical"
 
 ###icons
 
-| default              | arrow                    | circle              | inner               | hip              |
-| -------------------- | ------------------------ | ------------------- | ------------------- | ---------------- |
-| ![alt text][default] | ![alt text][arrow]       | ![alt text][circle] | ![alt text][inner]  | ![alt text][hip] |
+| default              | arrow                    | circle              | inner               | hip              | contrast         | nautical         |
+| -------------------- | ------------------------ | ------------------- | ------------------- | ---------------- | ---------------- | ---------------- |
+| ![alt text][default] | ![alt text][arrow]       | ![alt text][circle] | ![alt text][inner]  | ![alt text][hip] | ![alt text][hip] | ![alt text][hip] |
 
 ###iSize
 
