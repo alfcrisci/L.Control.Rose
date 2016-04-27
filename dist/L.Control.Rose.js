@@ -12,7 +12,6 @@ L.Control.Rose = L.Control.extend({
     initialize: function (placeholder, options) {
         L.setOptions(this, options);
         this.placeholder = placeholder;
-        console.log(this.placeholder);
        },
 
     onAdd: function (map) {
@@ -20,7 +19,6 @@ L.Control.Rose = L.Control.extend({
 
         //Find content container
         var content = this._contentContainer = L.DomUtil.get(this.placeholder);
-        console.log(content);
 
         // Remove the content container from its original parent
         content.parentNode.removeChild(content);
@@ -38,7 +36,6 @@ L.Control.Rose = L.Control.extend({
         var path = 'images/'+arrow+'.svg';
         var i = L.DomUtil.create('img', s, content);
         i.setAttribute('src', path);
-        console.log(container);
 
         return container;
     }
