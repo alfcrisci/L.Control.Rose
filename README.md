@@ -5,11 +5,21 @@ are used simply as decorations.
 
 This Leaflet plugin allows users to add a variety of svg norths arrow to their mapping applications
 
+##Demo
+
+Check out the demo [here](http://bradhamson.github.io/L.Control.Rose/#11/39.2846/-76.6200)
 
 ##Using the Plugin
 
+First add the L.Control.Rose.css, L.Control.Rose.j, and copy the images 
+directory from the dist directory
 
-First add a `div` for the north arrow somewhere in your app:
+~~~~html
+<link rel="stylesheet" href="dist/L.Control.Rose.css" />
+<script src="dist/L.Control.Rose.js"></script>
+~~~~
+
+Then add a `div` for the north arrow somewhere in your app:
 
 ~~~~html
 <div id="rose">
