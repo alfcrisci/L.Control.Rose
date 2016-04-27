@@ -52,9 +52,9 @@ Positions are inherited from L.Control
 
 ###icons
 
-| default              | arrow                    | circle              | inner               | hip              | contrast         | nautical         |
-| -------------------- | ------------------------ | ------------------- | ------------------- | ---------------- | ---------------- | ---------------- |
-| ![alt text][default] | ![alt text][arrow]       | ![alt text][circle] | ![alt text][inner]  | ![alt text][hip] | ![alt text][hip] | ![alt text][hip] |
+| default              | arrow                    | circle              | inner               | hip              | contrast              | nautical              |
+| -------------------- | ------------------------ | ------------------- | ------------------- | ---------------- | --------------------- | --------------------- |
+| ![alt text][default] | ![alt text][arrow]       | ![alt text][circle] | ![alt text][inner]  | ![alt text][hip] | ![alt text][contrast] | ![alt text][nautical] |
 
 ###iSize
 
