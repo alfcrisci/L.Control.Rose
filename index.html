@@ -16,6 +16,8 @@
 	<body>
 		<div id="map"></div>
 		<div id="rose"></div>
+		<div id="rose2"></div>
+		<div id="rose3"></div>
 		<script src="data/exp_testdata.js"></script>
 		<script>
 		var map = L.map('map', {
@@ -73,7 +75,11 @@
 		L.control.scale({options: {position: 'bottomleft',maxWidth: 100,metric: true,imperial: false,updateWhenIdle: false}}).addTo(map);
 
 		 var rose = L.control.rose('rose', {position:'bottomright', icon:'default', iSize:'medium'});
-		 rose.addTo(map)
+		 var rose2 = L.control.rose('rose2', {position:'bottomleft', icon:'circle', iSize:'small'});
+		 var rose3 = L.control.rose('rose3', {position:'topleft', icon:'arrow', iSize:'medium'});
+		 rose.addTo(map);
+		 rose2.addTo(map);
+		 rose3.addTo(map);
 	</script>
 </body>
 </html>
