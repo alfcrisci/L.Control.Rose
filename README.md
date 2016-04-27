@@ -38,19 +38,31 @@ Then add a `div` for the north arrow somewhere in your app:
 
 ##Options
 
-More icons are coming soon. Additionally, there will be a switch from svg files to just svg code.
+For now this plugin uses svg files. There will be a switch from svg files to just svg code in the future.
+
+Positions are inherited from L.Control
+
+[default]: https://github.com/bradhamson/L.Control.Rose/tree/master/dist/images/default.svg "default"
+[arrow]: https://github.com/bradhamson/L.Control.Rose/tree/master/dist/images/arrow.svg "arrow"
+[circle]: https://github.com/bradhamson/L.Control.Rose/tree/master/dist/images/circle.svg "circle"
+[inner]: https://github.com/bradhamson/L.Control.Rose/tree/master/dist/images/inner.svg "inner"
+[hip]: https://github.com/bradhamson/L.Control.Rose/tree/master/dist/images/hip.svg "hip"
+
+| icon     | ex                       |
+| -------- | ------------------------ |
+| default  | ![alt text][default]     |
+| arrow    | ![alt text][arrow]       |
+| circle   | ![alt text][circle]      |
+| inner    | ![alt text][inner]       |
+| hip      | ![alt text][hip]         |
 
 
-| position    | icon     | iSize  |
-| ----------- | -------- | -------|
-| top         | default  | xsmall |
-| bottom      | x        | small  |
-| right       | x        | medium |
-| left        | x        | large  |
-| topright    | x        | x      |  
-| topleft     | x        | x      |  
-| bottomright | x        | x      |
-| bottomleft  | x        | x      |     
+| size   | value |
+| ------ | ----- |
+| large  | 100px |
+| medium | 75px  |
+| small  | 50px  |
+| xsmall | 25px  |
 
 
 #License
