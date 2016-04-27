@@ -48,15 +48,13 @@ Positions are inherited from L.Control
 [inner]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/inner.png "inner"
 [hip]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/hip.png "hip"
 
+###icons
 
-| icon     | ex                       |
-| -------- | ------------------------ |
-| default  | ![alt text][default]     |
-| arrow    | ![alt text][arrow]       |
-| circle   | ![alt text][circle]      |
-| inner    | ![alt text][inner]       |
-| hip      | ![alt text][hip]         |
+| default              | arrow                    | circle              | inner               | hip              |
+| -------------------- | ------------------------ | ------------------- | ------------------- | ---------------- |
+| ![alt text][default] | ![alt text][arrow]       | ![alt text][circle] | ![alt text][inner]  | ![alt text][hip] |
 
+###iSize
 
 | size   | value |
 | ------ | ----- |
