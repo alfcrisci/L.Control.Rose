@@ -42,11 +42,11 @@ For now this plugin uses svg files. There will be a switch from svg files to jus
 
 Positions are inherited from L.Control
 
-[default]: L.Control.Rose/demo/default.png "default"
-[arrow]: L.Control.Rose/demo/arrow.png "arrow"
-[circle]: L.Control.Rose/demo/circle.png "circle"
-[inner]: L.Control.Rose/demo/inner.png "inner"
-[hip]: L.Control.Rose/demo/hip.png "hip"
+[default]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/default.png "default"
+[arrow]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/arrow.png "arrow"
+[circle]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/circle.png "circle"
+[inner]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/inner.png "inner"
+[hip]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/hip.png "hip"
 
 
 | icon     | ex                       |
