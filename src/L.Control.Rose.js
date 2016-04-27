@@ -2,6 +2,7 @@ L.Control.Rose = L.Control.extend({
 
     options: {
         icon: 'default',
+        iSize: 'small',
         position: 'bottomleft',
     },
 
@@ -24,8 +25,9 @@ L.Control.Rose = L.Control.extend({
 
         //insert image
         var arrow = this.options.icon;
+        var s = this.options.iSize;
         var path = 'images/'+arrow+'.svg';
-        var i = L.DomUtil.create('img', 'north-arrow', content);
+        var i = L.DomUtil.create('img', s, content);
         i.setAttribute('src', path);
     },
 

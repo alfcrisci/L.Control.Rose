@@ -1,7 +1,5 @@
 .leaflet-rose {
   position: absolute;
-  width: 10px;
-  height: 10px;
   padding: 10px; 
   }
 
@@ -43,4 +41,20 @@
    .topleft {
  	top: 1%;
  	left: 0%;
+ }
+
+ .large {
+ 	width: 100px;
+ }
+
+ .medium {
+ 	width: 75px;
+ }
+
+ .small {
+ 	width: 50px;
+ }
+
+ .xsmall {
+ 	width: 25px;
  }
