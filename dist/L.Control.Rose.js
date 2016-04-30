@@ -17,8 +17,10 @@ L.Control.Rose = L.Control.extend({
 
     setOpacity: function (map) {
         var opacity = this.options.opacity;
-        L.DomUtil.setOpacity(this._contentContainer, opacity);
-      },
+        if (this._contentContainer && opacity < 1) {
+            L.DomUtil.setOpacity(this._contentContainer, opacity);
+        }
+    },
 
     onAdd: function (map) {
     	this._map = map;
