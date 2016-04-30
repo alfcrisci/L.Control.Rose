@@ -9,6 +9,10 @@ This Leaflet plugin allows users to add a variety of svg norths arrow to their m
 
 Check out the demo [here](http://bradhamson.github.io/L.Control.Rose/#11/39.2846/-76.6200)
 
+##Install
+
+`npm install l.control.rose`
+
 ##Using the Plugin
 
 First add the L.Control.Rose.css, L.Control.Rose.js, and copy the `arrows` 
