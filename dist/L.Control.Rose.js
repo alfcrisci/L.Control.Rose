@@ -14,6 +14,11 @@ L.Control.Rose = L.Control.extend({
         this.placeholder = placeholder;
        },
 
+    setOpacity: function (map) {
+        var opacity = this.options.opacity;
+        L.DomUtil.setOpacity(this._contentContainer, opacity);
+      },
+
     onAdd: function (map) {
     	this._map = map;
 
@@ -36,6 +41,8 @@ L.Control.Rose = L.Control.extend({
         var path = 'images/'+arrow+'.svg';
         var i = L.DomUtil.create('img', s, content);
         i.setAttribute('src', path);
+
+        this.setOpacity(this._map);
 
         return container;
     }
