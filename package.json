@@ -1,0 +1,31 @@
+{
+  "name": "l.control.rose",
+  "version": "0.0.1",
+  "description": "North arrows for Leaflet maps",
+  "author": "Brad Hamson <https://github.com/bradhamson>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0"
+  },
+  "main": "dist/L.Control.Rose.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bradhamson/L.Control.Rose.git"
+  },
+  "scripts": {
+  	"prepublish": "grunt"
+  },
+  "keywords": [
+    "gis",
+    "map",
+    "leaflet",
+    "svg",
+    "north arrow",
+    "compass",
+    "compass rose",
+    "icon"
+  ]
+}

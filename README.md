@@ -11,8 +11,8 @@ Check out the demo [here](http://bradhamson.github.io/L.Control.Rose/#11/39.2846
 
 ##Using the Plugin
 
-First add the L.Control.Rose.css, L.Control.Rose.j, and copy the images 
-directory from the dist directory
+First add the L.Control.Rose.css, L.Control.Rose.js, and copy the `arrows` 
+directory from the dist directory into your root directory.
 
 ~~~~html
 <link rel="stylesheet" href="dist/L.Control.Rose.css" />
@@ -30,7 +30,7 @@ Then add a `div` for the north arrow somewhere in your app:
  Create `L.Control.Rose` and add it to the map:
 
 ~~~~javascript
- var rose = L.control.rose('rose', {position:'bottomleft', icon:'default', iSize:'medium'});
+ var rose = L.control.rose('rose', {position:'bottomleft', icon:'default', iSize:'medium', opacity:0.8});
 
  rose.addTo(map)
 ~~~~
@@ -40,7 +40,9 @@ Then add a `div` for the north arrow somewhere in your app:
 
 For now this plugin uses svg files. There will be a switch from svg files to just svg code in the future.
 
-Positions are inherited from L.Control
+Positions are inherited from L.Control.
+
+Opacity works the same as it always does.
 
 [default]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/default.png "default"
 [arrow]: https://raw.githubusercontent.com/bradhamson/L.Control.Rose/master/demo/arrow.png "arrow"
