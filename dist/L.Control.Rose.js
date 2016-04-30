@@ -5,6 +5,7 @@ L.Control.Rose = L.Control.extend({
         icon: 'default',
         iSize: 'small',
         position: 'bottomleft',
+        opacity: 1,
     },
 
     placeholder: '',
