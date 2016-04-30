@@ -5,6 +5,7 @@ L.Control.Rose = L.Control.extend({
         icon: 'default',
         iSize: 'small',
         position: 'bottomleft',
+        opacity: 1,
     },
 
     placeholder: '',
@@ -13,6 +14,13 @@ L.Control.Rose = L.Control.extend({
         L.setOptions(this, options);
         this.placeholder = placeholder;
        },
+
+    setOpacity: function (map) {
+        var opacity = this.options.opacity;
+        if (this._contentContainer && opacity < 1) {
+            L.DomUtil.setOpacity(this._contentContainer, opacity);
+        }
+    },
 
     onAdd: function (map) {
     	this._map = map;
@@ -33,9 +41,11 @@ L.Control.Rose = L.Control.extend({
         //insert image
         var arrow = this.options.icon;
         var s = this.options.iSize;
-        var path = 'images/'+arrow+'.svg';
+        var path = 'arrows/'+arrow+'.svg';
         var i = L.DomUtil.create('img', s, content);
         i.setAttribute('src', path);
+
+        this.setOpacity(this._map);
 
         return container;
     }
